@@ -24,10 +24,10 @@ def PayKb1():
   return keyboard
 
 storage = MemoryStorage()
-bot = Bot(token='BOT_TOKEN')
+bot = Bot(token='7539159120:AAELZaXykVYSf9ZOJc5CzjkZacVcVIGZBgM')
 dp = Dispatcher(bot,
                 storage=storage)
-crypto = AioCryptoPay(token="CRYPTO_PAY_TOKEN")
+crypto = AioCryptoPay(token="403636:AAaAE716k80YBOilrefrHqUJgyy8ukPp7zy")
 
 PayKb = types.InlineKeyboardButton("Сделать ставку", url=ikb2)
 
